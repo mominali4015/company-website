@@ -9,7 +9,6 @@ import GraphicDesigning from './components/GraphicDesigning';
 import AboutUs from './components/AboutUs';
 import Careers from './components/Careers';
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
-// import {Switch} from 'react-router';
 
 function App() {
   return (
