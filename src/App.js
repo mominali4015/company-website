@@ -8,6 +8,10 @@ import SEO from './components/Seo';
 import GraphicDesigning from './components/GraphicDesigning';
 import AboutUs from './components/AboutUs';
 import Careers from './components/Careers';
+import DigitalMarketing from './components/DigitalMarketing';
+import Networking from './components/Networking';
+import Blogs from './components/Blogs';
+import Contact from './components/Contact';
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
@@ -26,9 +30,17 @@ function App() {
 
         <Route path='/GraphicDesigning' Component={GraphicDesigning} />
 
+        <Route path='/DigitalMarketing' Component={DigitalMarketing} />
+
+        <Route path='/NetworkServices' Component={Networking} />
+
         <Route path='/AboutUs' Component={AboutUs} />
 
         <Route path='/Careers' Component={Careers} />
+
+        <Route path='/Blogs' Component={Blogs} />
+
+        <Route path='/Contact' Component={Contact } />
 
       </Routes>
       <Footer />
