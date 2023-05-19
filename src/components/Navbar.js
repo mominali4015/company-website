@@ -16,25 +16,32 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item mx-2 dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Our Services
-              </a>
+              Services</a>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/WebServices">Web Services</Link></li>
-                <li><Link className="dropdown-item" to="/MobileApps">Mobile App</Link></li>
-                <li><Link className="dropdown-item" to="/SEO">SEO</Link></li>
-                <li><Link className="dropdown-item" to="/GraphicDesigning">Graphic Desiging</Link></li>
+                <li><Link className="dropdown-item" to="/WebServices">Web Development</Link></li>
+                <li><Link className="dropdown-item" to="/MobileApps">Mobile Apps</Link></li>
+                <li><Link className="dropdown-item" to="/SEO">SEO Services</Link></li>
+                <li><Link className="dropdown-item" to="/GraphicDesigning">Graphics Desiging</Link></li>
+                <li><Link className="dropdown-item" to="/DigitalMarketing">Digital Marketing</Link></li>
+                <li><Link className="dropdown-item" to="/NetworkServices">Network Services</Link></li>
               </ul>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/AboutUs">About Us</Link>
+            <li className="nav-item mx-2">
+              <Link className="nav-link" to="/Blogs">Blogs</Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
+              <Link className="nav-link" to="/AboutUs">Portfolio</Link>
+            </li>
+            <li className="nav-item mx-2">
               <Link className="nav-link" to="/Careers">Careers</Link>
+            </li>
+            <li className="nav-item mx-2">
+              <Link className="nav-link" to="/Contact">Contact Us</Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
