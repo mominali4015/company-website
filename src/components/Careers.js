@@ -2,7 +2,7 @@ import React from 'react';
 function Careers() {
     return (
         <>
-            <h1 class="text-center">No Careers at the Moment</h1>
+            <h1 class="text-center">No Careers</h1>
         </>
     );
 }

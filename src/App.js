@@ -22,7 +22,7 @@ function App() {
 
         <Route path='/' Component={Landing} />
 
-        <Route path='/WebServices' Component={WebService} />
+        <Route path='/WebDevelopment' Component={WebService} />
 
         <Route path='/MobileApps' Component={MobileApp} />
 

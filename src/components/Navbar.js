@@ -23,7 +23,7 @@ function Navbar() {
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services</a>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/WebServices">Web Development</Link></li>
+                <li><Link className="dropdown-item" to="/WebDevelopment">Web Development</Link></li>
                 <li><Link className="dropdown-item" to="/MobileApps">Mobile Apps</Link></li>
                 <li><Link className="dropdown-item" to="/SEO">SEO Services</Link></li>
                 <li><Link className="dropdown-item" to="/GraphicDesigning">Graphics Desiging</Link></li>
