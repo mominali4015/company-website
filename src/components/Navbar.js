@@ -37,6 +37,9 @@ function Navbar() {
             <li className="nav-item mx-3">
               <Link className="nav-link" to="/AboutUs">About Us</Link>
             </li>
+            <li className="nav-item mx-3">
+              <Link className="nav-link" to="/Careers">Careers</Link>
+            </li>
           </ul>
           <Link className="nav-link mx-5" to="/Contact">
             <button className='btn btn-dark'>Contact Us</button>

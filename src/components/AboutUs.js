@@ -35,74 +35,74 @@ function AboutUs() {
 
                 <div className='container mt-5 p-3 p-lg-5 bg-white rounded'>
                     <h3 className='text-center mb-3'>Our Valuable Team</h3>
-                <div class="row g-2 g-lg-5">
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                            <div className='pt-3 ps-3 pe-3'>
-                            <img src={Ali} className="card-img-top rounded-circle" alt="Ali" />
+                    <div class="row g-2 g-lg-5">
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Ali} className="card-img-top rounded-circle" alt="Ali" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Mohammad Ali</h5>
+                                    <p class="card-text text-center">Backend Developer</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Mohammad Ali</h5>
-                                <p class="card-text text-center">Backend Developer</p>
+                        </div>
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Zaheer} class="card-img-top rounded-circle" alt="Zaheer" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Zaheer Ali</h5>
+                                    <p class="card-text text-center"> Frontend Developer </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Ubaid} class="card-img-top rounded-circle" alt="Ubaid" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Ubaid </h5>
+                                    <p class="card-text text-center">Graphics Designer </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Ahmed} class="card-img-top rounded-circle" alt="Ahmed" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Ahmed</h5>
+                                    <p class="card-text text-center"> Network Specialist </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Uqba} class="card-img-top rounded-circle" alt="Uqba" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Uqba</h5>
+                                    <p class="card-text text-center"> Web Developer </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 p-3 p-lg-5">
+                            <div class="card shadow" >
+                                <div className='pt-3 ps-3 pe-3 ps-lg-5 pt-lg-5 pe-lg-5'>
+                                    <img src={Moeed} class="card-img-top rounded-circle" alt="Moeed" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mr. Abdul Moeed</h5>
+                                    <p class="card-text text-center"> SEO Officer </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                        <div className='pt-3 ps-3 pe-3'>
-                            <img src={Zaheer} class="card-img-top rounded-circle" alt="Zaheer" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Zaheer Ali</h5>
-                                <p class="card-text text-center"> Frontend Developer </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                        <div className='pt-3 ps-3 pe-3'>
-                            <img src={Ubaid} class="card-img-top rounded-circle" alt="Ubaid" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Ubaid </h5>
-                                <p class="card-text text-center">Graphics Designer </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                        <div className='pt-3 ps-3 pe-3'>
-                            <img src={Ahmed} class="card-img-top rounded-circle" alt="Ahmed" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Ahmed</h5>
-                                <p class="card-text text-center"> Network Specialist </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                        <div className='pt-3 ps-3 pe-3'>
-                            <img src={Uqba} class="card-img-top rounded-circle" alt="Uqba" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Uqba</h5>
-                                <p class="card-text text-center"> Web Developer </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card shadow" >
-                        <div className='pt-3 ps-3 pe-3'>
-                            <img src={Moeed} class="card-img-top rounded-circle" alt="Moeed" />
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mr. Abdul Moeed</h5>
-                                <p class="card-text text-center"> SEO Officer </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </>
