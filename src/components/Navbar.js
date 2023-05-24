@@ -15,39 +15,32 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item mx-2">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item mx-3">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item mx-2 dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services</a>
+                Services</a>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/WebDevelopment">Web Development</Link></li>
-                <li><Link className="dropdown-item" to="/MobileApps">Mobile Apps</Link></li>
-                <li><Link className="dropdown-item" to="/SEO">SEO Services</Link></li>
-                <li><Link className="dropdown-item" to="/GraphicDesigning">Graphics Desiging</Link></li>
-                <li><Link className="dropdown-item" to="/DigitalMarketing">Digital Marketing</Link></li>
+                <li><Link className="dropdown-item border-bottom" to="/WebDevelopment">Web Development</Link> </li>
+                <li><Link className="dropdown-item border-bottom" to="/MobileApps">Mobile Apps</Link></li>
+                <li><Link className="dropdown-item border-bottom" to="/SEO">SEO Services</Link></li>
+                <li><Link className="dropdown-item border-bottom" to="/GraphicDesigning">Graphics Desiging</Link></li>
+                <li><Link className="dropdown-item border-bottom" to="/DigitalMarketing">Digital Marketing</Link></li>
                 <li><Link className="dropdown-item" to="/NetworkServices">Network Services</Link></li>
               </ul>
             </li>
-            <li className="nav-item mx-2">
+            <li className="nav-item mx-3">
               <Link className="nav-link" to="/Blogs">Blogs</Link>
             </li>
-            <li className="nav-item mx-2">
-              <Link className="nav-link" to="/AboutUs">Portfolio</Link>
-            </li>
-            <li className="nav-item mx-2">
-              <Link className="nav-link" to="/Careers">Careers</Link>
-            </li>
-            <li className="nav-item mx-2">
-              <Link className="nav-link" to="/Contact">Contact Us</Link>
+            <li className="nav-item mx-3">
+              <Link className="nav-link" to="/AboutUs">About Us</Link>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <Link className="nav-link mx-5" to="/Contact">
+            <button className='btn btn-dark'>Contact Us</button>
+          </Link>
         </div>
       </div>
     </nav>
