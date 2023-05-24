@@ -35,7 +35,7 @@ function Navbar() {
               <Link className="nav-link" to="/Blogs">Blogs</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link" to="/AboutUs">Portfolio</Link>
+              <Link className="nav-link" to="/AboutUs">About Us</Link>
             </li>
             <li className="nav-item mx-2">
               <Link className="nav-link" to="/Careers">Careers</Link>
