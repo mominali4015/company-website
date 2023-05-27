@@ -12,6 +12,7 @@ import DigitalMarketing from './components/DigitalMarketing';
 import Networking from './components/Networking';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
+import Privacy from './components/Privacy';
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
@@ -41,6 +42,8 @@ function App() {
         <Route path='/Blogs' Component={Blogs} />
 
         <Route path='/Contact' Component={Contact } />
+
+        <Route path='/PrivacyPolicy' Component={Privacy } />
 
       </Routes>
       <Footer />

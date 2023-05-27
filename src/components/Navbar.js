@@ -15,11 +15,11 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-3 mb-lg-0">
             <li className="nav-item mx-3">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            <li className="nav-item mx-2 dropdown">
+            <li className="nav-item mx-3 dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services</a>
               <ul className="dropdown-menu">
@@ -41,7 +41,7 @@ function Navbar() {
               <Link className="nav-link" to="/Careers">Careers</Link>
             </li>
           </ul>
-          <Link className="nav-link mx-5" to="/Contact">
+          <Link className="nav-link mx-3" to="/Contact">
             <button className='btn btn-dark'>Contact Us</button>
           </Link>
         </div>

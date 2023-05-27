@@ -9,7 +9,7 @@ function Careers() {
                 <div className='row'>
                     <div className='col-md-2'></div>
                     <div className='col-12 col-md-8' style={{ textAlign: 'justify' }}>
-                        <p>At Swift Solutions, we believe that our success is driven by the talent and dedication of our team members. We're always on the lookout for exceptional individuals who are passionate about technology and development to join our team. While we currently don't have any job openings or vacancies available, we encourage you to check back periodically for future opportunities.</p>
+                        <p className='text-white fs-5 p-2'>At Swift Solutions, we believe that our success is driven by the talent and dedication of our team members. We're always on the lookout for exceptional individuals who are passionate about technology and development to join our team. While we currently don't have any job openings or vacancies available, we encourage you to check back periodically for future opportunities.</p>
                     </div>
                     <div className='col-md-2'></div>
                 </div>
@@ -68,7 +68,7 @@ function Careers() {
                         <div class="card shadow">
                             <div class="card-body p-3">
                                 <h5 class=" card-title text-center">Continuous Learning</h5>
-                                <p class="card-text"> Fuel your growth with our unwavering commitment to continuous learning. Benefit from training, workshops, and conferences that keep you informed about the latest industry trends.</p> 
+                                <p class="card-text"> Fuel your growth with our unwavering commitment to continuous learning. Benefit from training, workshops, and conferences that keep you informed about the latest industry trends.</p>
                             </div>
                         </div>
                     </div>
@@ -93,6 +93,15 @@ function Careers() {
 
             <div className='container text-center'>
                 <h1>How to Connect</h1>
+                <div className='row'  style={{ textAlign: 'justify' }}>
+                    <div className='col-md-2'></div>
+                    <div className='col-md-8'>
+                <p>While we currently don't have any job openings, we still encourage talented individuals to get in touch with us and express their interest in joining our team. You can connect with us by sending an email to [careers@swiftsolutions.pk] or by filling out the contact form below. We will keep your information on file and reach out to you when suitable opportunities arise.</p>
+                <p>Thank you for considering Swift Solutions  as a potential employer. We appreciate your interest in our company and look forward to connecting with you in the future.</p>
+                    </div>
+                    <div className='col-md-2'></div>
+                </div>
+
             </div>
         </>
     );
