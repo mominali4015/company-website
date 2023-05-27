@@ -1,5 +1,17 @@
 import React from 'react';
 import background from '../assets/services backgrounds/GDBackground.webp';
+import logoDesign from '../assets/GDcards/logoDesign.webp';
+import branding from '../assets/GDcards/branding.webp';
+import webDesign from '../assets/GDcards/webDesign.webp';
+import printDesign from '../assets/GDcards/printDesign.webp';
+import pakagignDesign from '../assets/GDcards/pakagignDesign.webp';
+import socialMedia from '../assets/GDcards/socialMedia.webp';
+import SEOservices from '../assets/GDcards/SEOservices.webp';
+import Figma from '../assets/GDcards/Figma.webp';
+import AI from '../assets/GDcards/AI.webp';
+import PS from '../assets/GDcards/PS.webp';
+import canva from '../assets/GDcards/canva.webp';
+
 
 function GraphicDesign(){
     return(
@@ -21,7 +33,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={socialMedia} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={logoDesign} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Logo Design</h3>
@@ -32,7 +44,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={OnPageSeo} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={branding} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Branding and Identity Design</h3>
@@ -44,7 +56,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={AppStore} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={printDesign} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Print Design</h3>
@@ -56,7 +68,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={GoogleShopping} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={webDesign} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Web Design</h3>
@@ -69,7 +81,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={GoogleShopping} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={socialMedia} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Social Media Graphics</h3>
@@ -82,7 +94,7 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={GoogleShopping} class="card-img-top" alt="Mobile Apps" /> */}
+                            <img src={pakagignDesign} class="card-img-top" alt="Mobile Apps" />
 
                             <div class="card-body">
                                 <h3 class="card-title text-center">Packaging Design</h3>
@@ -96,12 +108,12 @@ function GraphicDesign(){
 
 
 
-            <h1 class="text-center py-4"> Related To Our SEO services</h1>
+            <h1 class="text-center py-4"> Related To Our Graphic Designing services</h1>
 
             <div class="container pb-4">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        {/* <img src={seopic} class="card-img-top" alt="Mobile Apps" /> */}
+                        <img src={SEOservices} class="card-img-top" alt="Mobile Apps" />
                     </div>
                     <div class="col-12 col-lg-6">
 
@@ -129,23 +141,23 @@ function GraphicDesign(){
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={GoogleAnalytic} class="card-img-top " alt="Web Development" /> */}
+                            <img src={canva} class="card-img-top " alt="Web Development" />
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 shadow">
-                            {/* <img src={MOZ} class="card-img-top " alt="Web Development" /> */}
+                            <img src={AI} class="card-img-top " alt="Web Development" />
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 shadow">
 
-                            {/* <img src={SEMRUSH} class="card-img-top " alt="Web Development" /> */}
+                            <img src={PS} class="card-img-top " alt="Web Development" />
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 shadow">
-                            {/* <img src={GoogleSearchConsole} class="card-img-top  " alt="Web Development" /> */}
+                            <img src={Figma} class="card-img-top  " alt="Web Development" />
                         </div>
                     </div>
                 </div>
