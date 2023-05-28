@@ -1,5 +1,11 @@
 import React from 'react';
 import background from '../assets/Background/DMBackground.webp';
+import CD from '../assets/DMcards/CD.webp';
+import DFDM from '../assets/DMcards/DFDM.webp';
+import DM from '../assets/DMcards/DM.webp';
+import SEO from '../assets/DMcards/SEO.webp';
+import digitalMarketingServices from '../assets/DMcards/digitalMarketingServices.webp';
+
 
 function DigitalMarketing(){
     return(
@@ -10,7 +16,7 @@ function DigitalMarketing(){
             </div>
             <div className='container' >
                 <div className='container'>
-                    <p class=" text-white p-4" style={{ textAlign: 'justify' }}>Digital marketing services encompass a wide range of strategies and techniques aimed at promoting businesses, products, or services through digital channels. These services typically include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and conversion rate optimization (CRO). Digital marketing services help businesses increase their online visibility, reach their target audience, drive traffic to their websites, generate leads, and ultimately boost sales and revenue. They involve leveraging various platforms, such as search engines, social media networks, email platforms, and content distribution channels, to create engaging and persuasive marketing campaigns tailored to the digital landscape. Effective digital marketing services can enhance brand awareness, customer engagement, and overall business growth in the online realm.</p>
+                    <p class=" text-white p-4" style={{ textAlign: 'justify' }}>By engaging digital marketing professional services, businesses can benefit from the expertise and guidance of professionals who are well-versed in the ever-evolving digital landscape. These services help businesses navigate the complexities of digital marketing, save time and resources, and achieve tangible results. With the assistance of digital marketing professionals, businesses can effectively leverage digital channels to enhance their online presence, engage with their target audience, and drive business growth.Digital marketing professionals also have expertise in utilizing analytics and data-driven insights. They analyze key performance indicators (KPIs) to measure the effectiveness of campaigns, identify areas for improvement, and make data-backed recommendations. They continuously monitor and optimize campaigns to ensure maximum ROI and stay ahead of industry trends and best practices.</p>
 
                 </div>
             </div>
@@ -21,34 +27,22 @@ function DigitalMarketing(){
                 <div class="col">
                     <div class="card h-100 shadow">
 
-                        {/* <img src={logoDesign} class="card-img-top" alt="Mobile Apps" /> */}
+                        <img src={SEO} class="card-img-top" alt="Mobile Apps" />
 
                         <div class="card-body">
                             <h3 class="card-title text-center">Search Engine Optimization</h3>
-                            <p className='' style={{ textAlign: 'justify' }}>Social media marketing services complement SEO efforts by leveraging popular social media platforms to enhance brand visibility, engage with audiences, and drive traffic to websites. Strategies include content creation, community management, advertising, and analytics to maximize social media's impact on SEO and overall digital marketing goals.</p>
+                            <p className='' style={{ textAlign: 'justify' }}>SEO professionals work closely with businesses to understand their target audience, industry landscape, and specific goals. They conduct thorough keyword research to identify high-value keywords that are relevant to the business and have the potential to drive qualified traffic. By strategically incorporating these keywords into website content, meta tags, headings, and URLs, they improve the website's visibility to search engines.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow">
 
-                        {/* <img src={branding} class="card-img-top" alt="Mobile Apps" /> */}
+                        <img src={DM} class="card-img-top" alt="Mobile Apps" />
 
                         <div class="card-body">
-                            <h3 class="card-title text-center">Branding and Identity Design</h3>
-                            <p className='' style={{ textAlign: 'justify' }}>On-page SEO services focus on optimizing various elements within a website to improve its search engine rankings. This includes keyword research, meta tag optimization, content optimization, URL structure, internal linking, and other factors that contribute to the website's visibility and relevance in search results.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 shadow">
-
-                        {/* <img src={printDesign} class="card-img-top" alt="Mobile Apps" /> */}
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Print Design</h3>
-                            <p className='' style={{ textAlign: 'justify' }}>App Store Optimization (ASO) services in SEO are aimed at improving the visibility and discoverability of mobile apps in app stores. This involves optimizing app titles, descriptions, keywords, screenshots, and reviews to increase app rankings, attract more downloads, and enhance overall app performance in the app store ecosystem.</p>
+                            <h3 class="card-title text-center">Digital Marketing Services</h3>
+                            <p className='' style={{ textAlign: 'justify' }}>Digital marketing services encompass a wide range of strategies and tactics aimed at promoting businesses, products, and services through digital channels. In today's digitally connected world, these services are essential for businesses to effectively reach and engage their target audience, build brand awareness, and drive business growth.</p>
 
                         </div>
                     </div>
@@ -56,11 +50,23 @@ function DigitalMarketing(){
                 <div class="col">
                     <div class="card h-100 shadow">
 
-                        {/* <img src={webDesign} class="card-img-top" alt="Mobile Apps" /> */}
+                        <img src={CD} class="card-img-top" alt="Mobile Apps" />
 
                         <div class="card-body">
-                            <h3 class="card-title text-center">Web Design</h3>
-                            <p className='' style={{ textAlign: 'justify' }}>Google Shopping services in SEO involve optimizing product listings and data feeds to appear prominently in Google's Shopping search results. This includes optimizing product titles, descriptions, images, and prices to improve visibility, increase clicks, and drive conversions for e-commerce businesses leveraging Google's shopping platform.</p>
+                            <h3 class="card-title text-center">CONTENT DRAFTING</h3>
+                            <p className='' style={{ textAlign: 'justify' }}>By utilizing content drafting services, businesses can save time and resources while benefiting from professionally crafted content that engages their audience and enhances their brand image. High-quality content helps businesses establish thought leadership, build credibility, improve search engine rankings, and foster customer loyalty.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow">
+
+                        <img src={DFDM} class="card-img-top" alt="Mobile Apps" />
+
+                        <div class="card-body">
+                            <h3 class="card-title text-center">data for digital marketing</h3>
+                            <p className='' style={{ textAlign: 'justify' }}>Data also helps in measuring and tracking the performance of digital marketing campaigns. Key metrics such as website traffic, click-through rates, conversion rates, and engagement metrics provide valuable feedback on the success of marketing efforts. Marketers can use this data to optimize their campaigns, identify areas for improvement, and allocate resources effectively.</p>
 
                         </div>
                     </div>
@@ -70,23 +76,21 @@ function DigitalMarketing(){
 
 
 
-        <h1 class="text-center py-4"> Related To Our Graphic Designing services</h1>
+        <h1 class="text-center py-4"> Related To Our Digital Marketing services</h1>
 
         <div class="container pb-4">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    {/* <img src={SEOservices} class="card-img-top" alt="Mobile Apps" /> */}
+                <p className='' style={{ textAlign: 'justify' }}>SEO services, or Search Engine Optimization services, are an integral part of any online business strategy. In today's digital age, where search engines play a pivotal role in driving website traffic, SEO services are crucial for improving visibility, increasing organic rankings, and attracting targeted visitors.
+
+SEO services encompass a wide range of techniques and strategies aimed at optimizing websites to rank higher in search engine results pages (SERPs). These services typically include keyword research, on-page optimization, technical SEO, link building, and content creation.
+
+Keyword research is the foundation of effective SEO services. It involves identifying the most relevant and valuable keywords that potential customers are using to search for products or services. By incorporating these keywords strategically throughout a website's content, meta tags, and URLs, SEO services help improve organic rankings.
+
+</p>
                 </div>
                 <div class="col-12 col-lg-6">
-
-
-                    <p className='' style={{ textAlign: 'justify' }}>SEO services, or Search Engine Optimization services, are an integral part of any online business strategy. In today's digital age, where search engines play a pivotal role in driving website traffic, SEO services are crucial for improving visibility, increasing organic rankings, and attracting targeted visitors.
-
-                        SEO services encompass a wide range of techniques and strategies aimed at optimizing websites to rank higher in search engine results pages (SERPs). These services typically include keyword research, on-page optimization, technical SEO, link building, and content creation.
-
-                        Keyword research is the foundation of effective SEO services. It involves identifying the most relevant and valuable keywords that potential customers are using to search for products or services. By incorporating these keywords strategically throughout a website's content, meta tags, and URLs, SEO services help improve organic rankings.
-
-                    </p>
+                <img src={digitalMarketingServices} class="card-img-top" alt="Mobile Apps" />
                 </div>
             </div>
         </div>
