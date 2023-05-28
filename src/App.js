@@ -14,7 +14,7 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Privacy from './components/Privacy';
 import { BrowserRouter as Router, Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
-
+import './App.css'
 function App() {
   return (
     <BrowserRouter>

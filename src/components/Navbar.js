@@ -28,7 +28,6 @@ function Navbar() {
                 <li><Link className="dropdown-item border-bottom" to="/SEO">SEO Services</Link></li>
                 <li><Link className="dropdown-item border-bottom" to="/GraphicDesigning">Graphics Desiging</Link></li>
                 <li><Link className="dropdown-item border-bottom" to="/DigitalMarketing">Digital Marketing</Link></li>
-                <li><Link className="dropdown-item" to="/NetworkServices">Network Services</Link></li>
               </ul>
             </li>
             <li className="nav-item mx-3">
