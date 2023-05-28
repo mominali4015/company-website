@@ -1,6 +1,6 @@
 import React from 'react';
-import Background from '../assets/Background/CRBackground.webp'
-import Aside from '../assets/Careers.webp';
+import Background from '../assets/Careers/CRBackground.webp'
+import Aside from '../assets/Careers/CareersAside.webp';
 function Careers() {
     return (
         <>

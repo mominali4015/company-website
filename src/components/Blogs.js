@@ -3,6 +3,11 @@ function Blogs(){
     return(
         <>
         <h1 class="text-center">Blogs</h1>
+        <div className='container'>
+            <div className='row'>
+                
+            </div>
+        </div>
         </>
     );
 }

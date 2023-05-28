@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import background from '../assets/services backgrounds/MAbackground.webp';
-import native from '../assets/MAcards/react-native.webp';
-import ionic from '../assets/MAcards/ionic.webp';
-import swift from '../assets/MAcards/Swift.webp';
-import flutter from '../assets/MAcards/flutter.webp';
-import iOS from '../assets/MAcards/ios.webp';
-import android from '../assets/MAcards/android.webp';
+import background from '../assets/App_Development/MAbackground.webp';
+import native from '../assets/App_Development/react-native.webp';
+import ionic from '../assets/App_Development/ionic.webp';
+import swift from '../assets/App_Development/Swift.webp';
+import flutter from '../assets/App_Development/flutter.webp';
+import iOS from '../assets/App_Development/ios.webp';
+import android from '../assets/App_Development/android.webp';
 
 function MobileApp() {
     return (

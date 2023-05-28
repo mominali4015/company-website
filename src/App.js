@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
-import WebService from './components/WebServices';
+import WebDevelopment from './components/WebDevelopment';
 import MobileApp from './components/MobileApp';
 import SEO from './components/Seo';
 import GraphicDesigning from './components/GraphicDesigning';
@@ -23,7 +23,7 @@ function App() {
 
         <Route path='/' Component={Landing} />
 
-        <Route path='/WebDevelopment' Component={WebService} />
+        <Route path='/WebDevelopment' Component={WebDevelopment} />
 
         <Route path='/MobileApps' Component={MobileApp} />
 

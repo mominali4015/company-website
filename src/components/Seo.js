@@ -1,14 +1,14 @@
 import React from 'react';
-import background from '../assets/services backgrounds/SEOBackground.webp';
-import socialMedia from '../assets/SEOcards/SocialMedia.webp';
-import OnPageSeo from '../assets/SEOcards/OnPageSeo.webp';
-import GoogleShopping from '../assets/SEOcards/GoogleShopping.webp';
-import AppStore from '../assets/SEOcards/AppStore.webp';
-import seopic from '../assets/SEOcards/seopic.webp';
-import GoogleAnalytic from '../assets/SEOcards/GoogleAnalytic.webp';
-import SEMRUSH from '../assets/SEOcards/SEMRUSH.webp';
-import MOZ from '../assets/SEOcards/MOZ.webp';
-import GoogleSearchConsole from '../assets/SEOcards/GoogleSearchConsole.webp';
+import background from '../assets/SEO/SEOBackground.webp';
+import socialMedia from '../assets/SEO/SocialMedia.webp';
+import OnPageSeo from '../assets/SEO/OnPageSeo.webp';
+import GoogleShopping from '../assets/SEO/GoogleShopping.webp';
+import AppStore from '../assets/SEO/AppStore.webp';
+import seopic from '../assets/SEO/seopic.webp';
+import GoogleAnalytic from '../assets/SEO/GoogleAnalytic.webp';
+import SEMRUSH from '../assets/SEO/SEMRUSH.webp';
+import MOZ from '../assets/SEO/MOZ.webp';
+import GoogleSearchConsole from '../assets/SEO/GoogleSearchConsole.webp';
 
 
 function Seo() {

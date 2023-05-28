@@ -1,6 +1,5 @@
 import React from 'react';
-import Background from '../assets/Background/CUBackground.webp';
-import { Link } from 'react-router-dom';
+import Background from '../assets/Contact_Us/CUBackground.webp';
 function Contact() {
 
     const handleCall = () => {

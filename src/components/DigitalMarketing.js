@@ -1,10 +1,10 @@
 import React from 'react';
-import background from '../assets/Background/DMBackground.webp';
-import CD from '../assets/DMcards/CD.webp';
-import DFDM from '../assets/DMcards/DFDM.webp';
-import DM from '../assets/DMcards/DM.webp';
-import SEO from '../assets/DMcards/SEO.webp';
-import digitalMarketingServices from '../assets/DMcards/digitalMarketingServices.webp';
+import background from '../assets/Digital_Marketing/DMBackground.webp';
+import CD from '../assets/Digital_Marketing/CD.webp';
+import DFDM from '../assets/Digital_Marketing/DFDM.webp';
+import DM from '../assets/Digital_Marketing/DM.webp';
+import SEO from '../assets/Digital_Marketing/SEO.webp';
+import Aside from '../assets/Digital_Marketing/DMAside.webp';
 
 
 function DigitalMarketing(){
@@ -88,7 +88,7 @@ We understand the importance of data-driven decision making, which is why we pro
 </p>
                 </div>
                 <div class="col-12 col-lg-6">
-                <img src={digitalMarketingServices} class="card-img-top" alt="Mobile Apps" />
+                <img src={Aside} class="card-img-top" alt="Mobile Apps" />
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 import React from 'react';
-import Background from '../assets/Background/AUBackground.webp';
 import { Link } from 'react-router-dom';
-import Ali from '../assets/Team/Ali-Team.jpg';
-import Zaheer from '../assets/Team/Zaheer-Team.jpg';
-import Ahmed from '../assets/Team/Ahmed-Team.jpg';
-import Uqba from '../assets/Team/Uqba-Team.jpg';
-import Moeed from '../assets/Team/Moeed-Team.jpg';
-import Ubaid from '../assets/Team/Ubaid-Team.jpg';
+import Background from '../assets/About_Us/AUBackground.webp';
+import Ali from '../assets/About_Us/Ali-Team.jpg';
+import Zaheer from '../assets/About_Us/Zaheer-Team.jpg';
+import Ahmed from '../assets/About_Us/Ahmed-Team.jpg';
+import Uqba from '../assets/About_Us/Uqba-Team.jpg';
+import Moeed from '../assets/About_Us/Moeed-Team.jpg';
+import Ubaid from '../assets/About_Us/Ubaid-Team.jpg';
 function AboutUs() {
     return (
         <>

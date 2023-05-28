@@ -1,16 +1,16 @@
 import React from 'react';
-import background from '../assets/services backgrounds/GDBackground.webp';
-import logoDesign from '../assets/GDcards/logoDesign.webp';
-import branding from '../assets/GDcards/branding.webp';
-import webDesign from '../assets/GDcards/webDesign.webp';
-import printDesign from '../assets/GDcards/printDesign.webp';
-import pakagignDesign from '../assets/GDcards/pakagignDesign.webp';
-import socialMedia from '../assets/GDcards/socialMedia.webp';
-import SEOservices from '../assets/GDcards/SEOservices.webp';
-import Figma from '../assets/GDcards/Figma.webp';
-import AI from '../assets/GDcards/AI.webp';
-import PS from '../assets/GDcards/PS.webp';
-import canva from '../assets/GDcards/canva.webp';
+import background from '../assets/Graphic_Designing/GDBackground.webp';
+import logoDesign from '../assets/Graphic_Designing/logoDesign.webp';
+import branding from '../assets/Graphic_Designing/branding.webp';
+import webDesign from '../assets/Graphic_Designing/webDesign.webp';
+import printDesign from '../assets/Graphic_Designing/printDesign.webp';
+import pakagignDesign from '../assets/Graphic_Designing/pakagignDesign.webp';
+import socialMedia from '../assets/Graphic_Designing/socialMedia.webp';
+import SEOservices from '../assets/Graphic_Designing/SEOservices.webp';
+import Figma from '../assets/Graphic_Designing/Figma.webp';
+import AI from '../assets/Graphic_Designing/AI.webp';
+import PS from '../assets/Graphic_Designing/PS.webp';
+import canva from '../assets/Graphic_Designing/canva.webp';
 
 
 function GraphicDesign(){

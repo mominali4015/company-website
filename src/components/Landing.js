@@ -1,24 +1,31 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo/logo.png'
-import img from '../assets/Untitled-3.jpg';
-import Benefits from '../assets/Benefits.webp';
-import Services from '../assets/OurServices.webp';
-import Transform from '../assets/Success.webp';
-import Customized from '../assets/WhyChooseUs/CustomizedSolution.webp';
-import Client from '../assets/WhyChooseUs/ClientApproach.webp';
-import Customer from '../assets/WhyChooseUs/CustomerService.webp';
-import Expertise from '../assets/WhyChooseUs/Expertise.webp';
-import Innovation from '../assets/WhyChooseUs/Innovation.webp';
-import Success from '../assets/WhyChooseUs/TrackSuccess.webp';
-import Web from '../assets/Cards/WebCard.webp';
-import App from '../assets/Cards/AppCard.webp';
-import Seo from '../assets/Cards/SeoCard.webp';
-import Graphic from '../assets/Cards/GraphicCard.webp';
-import Digital from '../assets/Cards/DigitalCard.webp';
-import Network from '../assets/Cards/NetworkCard.webp';
+import Logo from '../assets/Logo/logo.png'
+// Banners For Carousel / Slider
+import Banner from '../assets/Landing_Page/Banners/Untitled.jpg';
 
+import Priorities from '../assets/Landing_Page/Priorities.webp';
+
+// Images For Why Choose Us Section
+import Customized from '../assets/Landing_Page/WhyChooseUs/CustomizedSolution.webp';
+import Client from '../assets/Landing_Page/WhyChooseUs/ClientApproach.webp';
+import Customer from '../assets/Landing_Page/WhyChooseUs/CustomerService.webp';
+import Expertise from '../assets/Landing_Page/WhyChooseUs/Expertise.webp';
+import Innovation from '../assets/Landing_Page/WhyChooseUs/Innovation.webp';
+import Success from '../assets/Landing_Page/WhyChooseUs/TrackSuccess.webp';
+
+// Images For Our Services Section
+import Services from '../assets/Landing_Page/OurServices/Background.webp';
+import Web from '../assets/Landing_Page/OurServices/WebCard.webp';
+import App from '../assets/Landing_Page/OurServices/AppCard.webp';
+import Seo from '../assets/Landing_Page/OurServices/SeoCard.webp';
+import Graphic from '../assets/Landing_Page/OurServices/GraphicCard.webp';
+import Digital from '../assets/Landing_Page/OurServices/DigitalCard.webp';
+import Network from '../assets/Landing_Page/OurServices/NetworkCard.webp';
+
+// Images For Let's Transform Together Section
+import Transform from '../assets/Landing_Page/Transform.webp';
 
 function Landing() {
     return (
@@ -31,21 +38,21 @@ function Landing() {
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style={{ background: `url(${img})`, height: '400px' }} >
+                    <div class="carousel-item active" style={{ background: `url(${Banner})`, height: '480px' }} >
                        
                         <h1>
                             Welcome to Swift Solutions
                         </h1>
                         <h4>Unlocking Possibilities, Delivering Solutions</h4>
                     </div>
-                    <div class="carousel-item" style={{ background: `url(${img})`, height: '400px' }} >
+                    <div class="carousel-item" style={{ background: `url(${Banner})`, height: '400px' }} >
                         
                         <h1>
                             Welcome to Swift Solutions
                         </h1>
                         <h4>Delivering Solutions</h4>
                     </div>
-                    <div class="carousel-item" style={{ background: `url(${img})`, height: '400px' }} >
+                    <div class="carousel-item" style={{ background: `url(${Banner})`, height: '400px' }} >
                        
                         <h1>
                             Welcome to Swift Solutions
@@ -78,7 +85,7 @@ function Landing() {
                 </div>
             </div>
 
-            {/* Our Benefits Section */}
+            {/* Our Priorities Section */}
             <div className='container-fluid bg-dark text-white'>
                 <div className='row'>
                     <div className='col-12 col-lg-6'>
@@ -103,7 +110,7 @@ function Landing() {
                         </div>
                     </div>
                     <div className='col-12 col-lg-6'>
-                        <img src={Benefits} className='w-100 h-100' alt='Benfits' />
+                        <img src={Priorities} className='w-100 h-100' alt='Benfits' />
                     </div>
                 </div>
             </div>
