@@ -3,7 +3,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo/logo.png'
 import img from '../assets/Untitled-3.jpg';
-import developmentRight from '../assets/developmentRight.jpg';
+import Benefits from '../assets/Benefits.webp';
+import Services from '../assets/OurServices.webp';
+import Transform from '../assets/Success.webp';
+import Customized from '../assets/WhyChooseUs/CustomizedSolution.webp';
+import Client from '../assets/WhyChooseUs/ClientApproach.webp';
+import Customer from '../assets/WhyChooseUs/CustomerService.webp';
+import Expertise from '../assets/WhyChooseUs/Expertise.webp';
+import Innovation from '../assets/WhyChooseUs/Innovation.webp';
+import Success from '../assets/WhyChooseUs/TrackSuccess.webp';
 import Web from '../assets/Cards/WebCard.webp';
 import App from '../assets/Cards/AppCard.webp';
 import Seo from '../assets/Cards/SeoCard.webp';
@@ -24,21 +32,21 @@ function Landing() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" style={{ background: `url(${img})`, height: '400px' }} >
-                        {/* <img src={img} class="d-block w-100" alt="1" /> */}
+                       
                         <h1>
                             Welcome to Swift Solutions
                         </h1>
                         <h4>Unlocking Possibilities, Delivering Solutions</h4>
                     </div>
                     <div class="carousel-item" style={{ background: `url(${img})`, height: '400px' }} >
-                        {/* <img src={img} class="d-block w-100" alt="1" /> */}
+                        
                         <h1>
                             Welcome to Swift Solutions
                         </h1>
                         <h4>Delivering Solutions</h4>
                     </div>
                     <div class="carousel-item" style={{ background: `url(${img})`, height: '400px' }} >
-                        {/* <img src={img} class="d-block w-100" alt="1" /> */}
+                       
                         <h1>
                             Welcome to Swift Solutions
                         </h1>
@@ -71,107 +79,159 @@ function Landing() {
             </div>
 
             {/* Our Benefits Section */}
-            <div className='container-fluid bg-dark p-3 text-white'>
+            <div className='container-fluid bg-dark text-white'>
                 <div className='row'>
-                    <div className='col-6'>
-                        <div className='row gx-5 gy-3'>
-                            <div className='col-6'>
-                                <h6> <i className='bi bi-clock me-2'></i> Timely Project Delivery</h6>
-                                <p style={{ textAlign: 'justify' }}> Meeting deadlines and delivering high quality results within agreed-upon timeframes.</p>
+                    <div className='col-12 col-lg-6'>
+                        <div className='row gx-5 gy-2 px-2'>
+                            <h2 className='text-white text-center pt-2'>Our Priorities</h2>
+                            <div className='col-12 col-md-6'>
+                                <h5> <i className='bi bi-clock me-2 fs-4'></i> Timely Project Delivery</h5>
+                                <p style={{ textAlign: 'justify' }}> Our efficient processes and skilled team ensure on-time project delivery, meeting deadlines while maintaining exceptional quality standards.</p>
                             </div>
-                            <div className='col-6'>
-                                <h6> <i className='bi bi-cash-coin me-2'></i> Cost-Effective Solutions</h6>
-                                <p style={{ textAlign: 'justify' }}> Delivering cost-effective tech services without compromising on quality.</p>
+                            <div className='col-12 col-md-6'>
+                                <h5> <i className='bi bi-cash-coin me-2 fs-4'></i> Cost-Effective Solutions</h5>
+                                <p style={{ textAlign: 'justify' }}> We offer budget-friendly solutions that maximize value without compromising quality, helping you achieve your goals within your financial constraints.</p>
                             </div>
-                            <div className='col-6'>
-                                <h6> <i className='bi bi-shield-check me-2'></i> Advanced Security Measures</h6>
-                                <p style={{ textAlign: 'justify' }}> Implementing robust security protocols to safeguard your valuable data.</p>
+                            <div className='col-12 col-md-6'>
+                                <h5> <i className='bi bi-shield-check me-2 fs-4'></i> Advanced Security Measures</h5>
+                                <p style={{ textAlign: 'justify' }}> We prioritize your data's security with rigorous protocols, ensuring comprehensive protection against potential threats and breaches.</p>
                             </div>
-                            <div className='col-6'>
-                                <h6> <i className='bi bi-person-check me-2'></i> User-Friendly Designs</h6>
-                                <p style={{ textAlign: 'justify' }}> Crafting intuitive and user-friendly interfaces for exceptional customer experiences.</p>
+                            <div className='col-12 col-md-6'>
+                                <h5> <i className='bi bi-person-check me-2 fs-4'></i> User-Friendly Designs</h5>
+                                <p style={{ textAlign: 'justify' }}> Our designs prioritize intuitive user experiences, ensuring seamless navigation and interaction that delight and engage your target audience.</p>
                             </div>
                         </div>
                     </div>
-                    <div className='col-6'>
-                        <img src={developmentRight} className='w-100' />
+                    <div className='col-12 col-lg-6'>
+                        <img src={Benefits} className='w-100 h-100' alt='Benfits' />
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row ">
-                    <div class="col-6 my-5">
-                        <p>
-                            At [ Company ], we specialize in providing top-notch IT services to our clients. Our services are
-                            designed to meet the unique needs and requirements of businesses of all sizes, from startups to
-                            established enterprises.
-                        </p>
-                        <p>
-                            Our team of experienced IT professionals is equipped with the latest tools and technologies to
-                            provide a
-                            wide range of services, including IT consulting, software development, network setup and
-                            maintenance,
-                            cloud computing, cybersecurity, and much more. We are committed to delivering innovative and
-                            effective
-                            solutions that help our clients improve their operations, enhance their productivity, and stay ahead
-                            ofthe competition.
-                        </p>
-                        <p>
-                            Our approach is focused on understanding our clients' specific needs and goals and tailoring our
-                            services to meet those needs. We work closely with our clients to ensure that our solutions are
-                            efficient, cost-effective, and scalable. We believe in building strong, long-lasting relationships
-                            with our clients, based on trust, transparency, and mutual respect.
-                        </p>
-                        <p>
-                            If you are looking for reliable and professional IT services, look no further than [Company Name].
-                            Contact us today to learn more about how we can help your business grow and thrive in the digital
-                            age.
-                        </p>
+
+            {/* Why Choose Us Section */}
+            <div className='container my-5 py-5 bg-light '>
+                <h1 className='text-center pb-3'>Why Choose Us?</h1>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Customized Solutions</h2>
+                                                <p style={{ textAlign: 'justify' }}>We understand that every business is unique, which is why we create customized solutions aligned with your specific goals and requirements. Our team of experts collaborates closely with you to develop strategies that drive success.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Customized} className='w-100' alt='Customized Solutions'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Proven Expertise</h2>
+                                                <p style={{ textAlign: 'justify' }}>With years of experience and a diverse portfolio of successful projects, we bring a wealth of expertise to the table. Our talented professionals possess a deep understanding of technology and development, ensuring top-notch quality in every project.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Expertise} className='w-100' alt='Proven Experstise'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Exceptional Customer Service</h2>
+                                                <p style={{ textAlign: 'justify' }}>We are committed to providing exceptional customer service throughout your journey with us. Our friendly and knowledgeable team is always ready to assist you, ensuring a smooth and enjoyable experience.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Customer} className='w-100' alt='Customer Service'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Client-Centric Approach</h2>
+                                                <p style={{ textAlign: 'justify' }}>Our focus is on you, the client. We prioritize your needs and goals, tailoring our solutions to meet your specific requirements. Your satisfaction is our utmost priority.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Client} className='w-100' alt='Client-Centric Approach'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Continous Innovation</h2>
+                                                <p style={{ textAlign: 'justify' }}>Innovation is in our DNA. We are constantly exploring new technologies, staying up-to-date with industry trends, and seeking innovative solutions to drive your business forward.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Innovation} className='w-100' alt='Continous Innovation'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div className='row d-flex justify-content-center'>
+                                <div className='col-12 col-md-9'>
+                                    <div className='card shadow'>
+                                        <div className='row'>
+                                            <div className='col-12 col-lg-6 pt-3 px-4'>
+                                                <h2 className='text-center'>Success Record</h2>
+                                                <p style={{ textAlign: 'justify' }}>Our track record speaks for itself. We have a proven history of delivering successful projects and achieving tangible results for our clients. Join the ranks of our satisfied clients who have experienced our excellence firsthand.</p>
+                                            </div>
+                                            <div className=' col-12 col-lg-6'>
+                                                <img src={Success} className='w-100' alt='Success Record'/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 my-5">
-                        <img src={developmentRight} class="rounded w-100" alt="aside" />
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <i class="bi bi-arrow-left fs-1 text-black" aria-hidden="true"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <i class="bi bi-arrow-right fs-1 text-black" aria-hidden="true"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-            <div class="container">
-                <div class="row ">
-                    <div class="col-6 my-5">
-                        <img src="./start.webp" class="rounded w-100" alt="aside" />
-                    </div>
-                    <div class="col-6 my-5">
-                        <p>
-                            At [ Company ], we specialize in providing top-notch IT services to our clients. Our services are
-                            designed to meet the unique needs and requirements of businesses of all sizes, from startups to
-                            established enterprises.
-                        </p>
-                        <p>
-                            Our team of experienced IT professionals is equipped with the latest tools and technologies to
-                            provide a
-                            wide range of services, including IT consulting, software development, network setup and
-                            maintenance,
-                            cloud computing, cybersecurity, and much more. We are committed to delivering innovative and
-                            effective
-                            solutions that help our clients improve their operations, enhance their productivity, and stay ahead
-                            ofthe competition.
-                        </p>
-                        <p>
-                            Our approach is focused on understanding our clients' specific needs and goals and tailoring our
-                            services to meet those needs. We work closely with our clients to ensure that our solutions are
-                            efficient, cost-effective, and scalable. We believe in building strong, long-lasting relationships
-                            with our clients, based on trust, transparency, and mutual respect.
-                        </p>
-                        <p>
-                            If you are looking for reliable and professional IT services, look no further than [Company Name].
-                            Contact us today to learn more about how we can help your business grow and thrive in the digital
-                            age.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className='container-fluid'><h1 className='fw-bold text-center'>Our Services</h1>
+
+            {/* Our Services Section */}
+            <div className='container-fluid py-4 text-white mb-3' style={{ background: `url(${Services})` }}><h1 className='fw-bold text-center'>Our Services</h1>
             </div>
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                     <div class="col">
                         <div class="card h-100">
                             <Link to="/WebDevelopment">
@@ -180,6 +240,9 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Website Development</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>We offer comprehensive website development services, creating custom solutions that cater to your specific needs and enhance your online presence.</p>
+                                <div className='text-center'>
+                                <Link to={'/WebDevelopment'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,6 +254,9 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Mobile Apps Development</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>We specialize in Android and iOS app development, delivering high-quality mobile applications tailored to your requirements and user preferences.</p>
+                                <div className='text-center'>
+                                <Link to={'/MobileApps'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -202,6 +268,9 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Search Engine Optimization</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>Our SEO services optimize your website for search engines, improving visibility and driving organic traffic to enhance your online presence and rankings.</p>
+                                <div className='text-center'>
+                                <Link to={'/SEO'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -213,6 +282,9 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Graphics Designing</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>Our graphic design services provide creative and visually stunning designs that effectively communicate your brand message and captivate your audience.</p>
+                                <div className='text-center'>
+                                <Link to={'/GraphicDesigning'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,6 +296,9 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Digital Marketing</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>Our digital marketing services drive targeted traffic, increase brand awareness, and boost conversions through strategic online campaigns and effective marketing strategies.</p>
+                                <div className='text-center'>
+                                <Link to={'/DigitalMarketing'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,8 +310,28 @@ function Landing() {
                             <div class="card-body">
                                 <h5 class="card-title text-center">Networking Services</h5>
                                 <p class="card-text" style={{ textAlign: 'justify' }}>Our networking services ensure seamless connectivity, efficient data transfer, and reliable performance for enhanced communication and optimized network infrastructure.</p>
+                                <div className='text-center'>
+                                <Link to={'/NetworkServices'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Transform Together */}
+            <div className='container-fluid bg-light mt-5'>
+                <div className='row'>
+                    <div className='col-12 col-lg-7 p-4'>
+                        <h2 className='text-center'>Let's Transform Together</h2>
+                        <p className='' style={{ textAlign: 'justify' }} >Discover the transformative power of [Your Company Name]. Elevate your business to new heights with our innovative technology solutions and unwavering dedication. Experience the difference we can make for your success. Contact us today to discuss your project or schedule a consultation, and let's embark on a journey of transformation together.</p>
+                        <p className='' style={{ textAlign: 'justify' }} >Contact us today to discuss your project, request a quote, or schedule a consultation. Our team is excited to collaborate with you and help you achieve your business goals.</p>
+                        <div className='text-center'>
+                        <Link to={'/Contact'}><button className='btn btn-dark px-5 py-2'>Contact Us Now</button></Link>
+                        </div>
+                    </div>
+                    <div className='col-12 col-lg-5 p-0 p-md-4 p-lg-0'>
+                        <img src={Transform} className='w-100' alt='Transform Together'/>
                     </div>
                 </div>
             </div>
