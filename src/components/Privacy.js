@@ -2,7 +2,7 @@ import React from 'react';
 function PrivacyPolicy(){
     return(
         <>
-        <h1 class="text-center">Our Privacy Policy</h1>
+        <h1 className="text-center">Our Privacy Policy</h1>
         <div className='row d-flex justify-content-center my-3 px-3 px-md-5'>
             <div className='col-12 col-md-7' style={{ textAlign: 'justify' }}>
                 <p>At [Your Company Name], we highly value your privacy and are dedicated to safeguarding the confidentiality and security of your personal information. This privacy policy is designed to provide you with a comprehensive understanding of how we collect, use, disclose, and protect the information you entrust to us. By using our website or engaging with our services, you consent to the practices described in this policy.</p>

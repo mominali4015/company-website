@@ -3,7 +3,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/Logo/logo.png'
 // Banners For Carousel / Slider
-import Banner from '../assets/Landing_Page/Banners/Untitled.jpg';
+import Main from '../assets/Landing_Page/Banners/Main.png';
+import Web_Ban from '../assets/Landing_Page/Banners/Web.png';
+import App_Ban from '../assets/Landing_Page/Banners/App.png';
+import Seo_Ban from '../assets/Landing_Page/Banners/Seo.png';
+import Dm_Ban from '../assets/Landing_Page/Banners/Dm.png';
+import Gd_Ban from '../assets/Landing_Page/Banners/Gd.png';
 
 import Priorities from '../assets/Landing_Page/Priorities.webp';
 
@@ -31,42 +36,44 @@ function Landing() {
     return (
         <div>
             {/* Slider / Carousel */}
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style={{ background: `url(${Banner})`, height: '480px' }} >
-                       
-                        <h1>
-                            Welcome to Swift Solutions
-                        </h1>
-                        <h4>Unlocking Possibilities, Delivering Solutions</h4>
+                <div className="carousel-inner">
+                    <div className="carousel-item active" >
+                        <img src={Main} className='w-100' alt='Main' />  
                     </div>
-                    <div class="carousel-item" style={{ background: `url(${Banner})`, height: '400px' }} >
-                        
-                        <h1>
-                            Welcome to Swift Solutions
-                        </h1>
-                        <h4>Delivering Solutions</h4>
+                    <div className="carousel-item" style={{ background: `url(${Web_Ban})`  }} >
+                        <img src={Web_Ban} className='w-100' alt='Web' />  
                     </div>
-                    <div class="carousel-item" style={{ background: `url(${Banner})`, height: '400px' }} >
-                       
-                        <h1>
-                            Welcome to Swift Solutions
-                        </h1>
-                        <h4>Unlocking Possibilities, </h4>
+                    <div className="carousel-item" style={{ background: `url(${App_Ban})`  }} >
+                        <img src={App_Ban} className='w-100' alt='App' />    
                     </div>
+                    <div className="carousel-item" style={{ background: `url(${Seo_Ban})`  }} >
+                        <img src={Seo_Ban} className='w-100' alt='Seo' />    
+                    </div>
+                    <div className="carousel-item" style={{ background: `url(${Dm_Ban})`  }} >
+                        <img src={Dm_Ban} className='w-100' alt='DM' />    
+                    </div>
+                    <div className="carousel-item" style={{ background: `url(${Gd_Ban})`  }} >
+                        <img src={Gd_Ban} className='w-100' alt='GD' />    
+                    </div>
+                    
+                    
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
 
@@ -118,9 +125,9 @@ function Landing() {
             {/* Why Choose Us Section */}
             <div className='container my-5 py-5 bg-light '>
                 <h1 className='text-center pb-3'>Why Choose Us?</h1>
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
+                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -137,7 +144,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -154,7 +161,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -171,7 +178,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -188,7 +195,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -205,7 +212,7 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div className="carousel-item">
                             <div className='row d-flex justify-content-center'>
                                 <div className='col-12 col-md-9'>
                                     <div className='card shadow'>
@@ -223,13 +230,13 @@ function Landing() {
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <i class="bi bi-arrow-left fs-1 text-black" aria-hidden="true"></i>
-                        <span class="visually-hidden">Previous</span>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <i className="bi bi-arrow-left fs-1 text-black" aria-hidden="true"></i>
+                        <span className="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <i class="bi bi-arrow-right fs-1 text-black" aria-hidden="true"></i>
-                        <span class="visually-hidden">Next</span>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <i className="bi bi-arrow-right fs-1 text-black" aria-hidden="true"></i>
+                        <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
@@ -237,86 +244,86 @@ function Landing() {
             {/* Our Services Section */}
             <div className='container-fluid py-4 text-white mb-3' style={{ background: `url(${Services})` }}><h1 className='fw-bold text-center'>Our Services</h1>
             </div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
-                    <div class="col">
-                        <div class="card h-100">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/WebDevelopment">
-                                <img src={Web} class="card-img-top" alt="Web Development" />
+                                <img src={Web} className="card-img-top" alt="Web Development" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Website Development</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>We offer comprehensive website development services, creating custom solutions that cater to your specific needs and enhance your online presence.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Website Development</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>We offer comprehensive website development services, creating custom solutions that cater to your specific needs and enhance your online presence.</p>
                                 <div className='text-center'>
                                 <Link to={'/WebDevelopment'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/MobileApps">
-                                <img src={App} class="card-img-top" alt="Mobile Apps" />
+                                <img src={App} className="card-img-top" alt="Mobile Apps" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Mobile Apps Development</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>We specialize in Android and iOS app development, delivering high-quality mobile applications tailored to your requirements and user preferences.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Mobile Apps Development</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>We specialize in Android and iOS app development, delivering high-quality mobile applications tailored to your requirements and user preferences.</p>
                                 <div className='text-center'>
                                 <Link to={'/MobileApps'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/SEO">
-                                <img src={Seo} class="card-img-top" alt="Seo Services" />
+                                <img src={Seo} className="card-img-top" alt="Seo Services" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Search Engine Optimization</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>Our SEO services optimize your website for search engines, improving visibility and driving organic traffic to enhance your online presence and rankings.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Search Engine Optimization</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>Our SEO services optimize your website for search engines, improving visibility and driving organic traffic to enhance your online presence and rankings.</p>
                                 <div className='text-center'>
                                 <Link to={'/SEO'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/GraphicDesigning">
-                                <img src={Graphic} class="card-img-top" alt="Graphic Designing" />
+                                <img src={Graphic} className="card-img-top" alt="Graphic Designing" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Graphics Designing</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>Our graphic design services provide creative and visually stunning designs that effectively communicate your brand message and captivate your audience.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Graphics Designing</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>Our graphic design services provide creative and visually stunning designs that effectively communicate your brand message and captivate your audience.</p>
                                 <div className='text-center'>
                                 <Link to={'/GraphicDesigning'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/DigitalMarketing">
-                                <img src={Digital} class="card-img-top" alt="Digital Marketing" />
+                                <img src={Digital} className="card-img-top" alt="Digital Marketing" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Digital Marketing</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>Our digital marketing services drive targeted traffic, increase brand awareness, and boost conversions through strategic online campaigns and effective marketing strategies.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Digital Marketing</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>Our digital marketing services drive targeted traffic, increase brand awareness, and boost conversions through strategic online campaigns and effective marketing strategies.</p>
                                 <div className='text-center'>
                                 <Link to={'/DigitalMarketing'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
+                    <div className="col">
+                        <div className="card h-100">
                             <Link to="/NetworkServices">
-                                <img src={Network} class="card-img-top" alt="Network Services" />
+                                <img src={Network} className="card-img-top" alt="Network Services" />
                             </Link>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Networking Services</h5>
-                                <p class="card-text" style={{ textAlign: 'justify' }}>Our networking services ensure seamless connectivity, efficient data transfer, and reliable performance for enhanced communication and optimized network infrastructure.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Networking Services</h5>
+                                <p className="card-text" style={{ textAlign: 'justify' }}>Our networking services ensure seamless connectivity, efficient data transfer, and reliable performance for enhanced communication and optimized network infrastructure.</p>
                                 <div className='text-center'>
                                 <Link to={'/NetworkServices'}><button className='btn btn-dark px-4'>Read More!</button></Link>
                                 </div>

@@ -121,7 +121,7 @@ function Contact() {
                             <hr />
                             <h4>Get to Know Our Location:</h4>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.2408218452356!2d74.40181727457514!3d31.572443294569325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905556f40f311%3A0xc3bc6369c81a44e3!2sFateh%20Garh%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1684693125820!5m2!1sen!2s"
-                                width="100%" height="235rem" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                width="100%" height="235rem" allowfullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Map'></iframe>
                         </div>
                     </div>
                 </div>

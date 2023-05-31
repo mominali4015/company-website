@@ -19,7 +19,7 @@ function Careers() {
                 <h2 className='my-3'>Our Work Environment</h2>
                 <div className='row'>
                     <div className='col-12 col-lg-6'>
-                        <img src={Aside} class="w-100" alt='aside' />
+                        <img src={Aside} className="w-100" alt='aside' />
                     </div>
                     <div className='col-12 col-lg-6'>
                         <div style={{ textAlign: 'justify' }}>
@@ -39,52 +39,52 @@ function Careers() {
 
             <div className='container text-center p-3 p-lg-5'>
                 <h2 className='my-3'>Why Work With Us</h2>
-                <div class="row g-5" style={{ textAlign: 'justify' }}>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Cutting-Edge Technology</h5>
-                                <p class="card-text">Join our team and experience the excitement of working with cutting-edge technology, staying ahead of industry advancements, and embracing the latest innovations.</p>
+                <div className="row g-5" style={{ textAlign: 'justify' }}>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Cutting-Edge Technology</h5>
+                                <p className="card-text">Join our team and experience the excitement of working with cutting-edge technology, staying ahead of industry advancements, and embracing the latest innovations.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Challenging Projects</h5>
-                                <p class="card-text">Embark on thrilling projects that stretch your limits, push boundaries, and offer abundant prospects for personal and professional growth, propelling your career to new heights.</p>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Challenging Projects</h5>
+                                <p className="card-text">Embark on thrilling projects that stretch your limits, push boundaries, and offer abundant prospects for personal and professional growth, propelling your career to new heights.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Collaborative Culture</h5>
-                                <p class="card-text ">Join our team and experience a collaborative and supportive culture where open communication, knowledge sharing, fostering a sense of belonging and collective success.</p>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Collaborative Culture</h5>
+                                <p className="card-text ">Join our team and experience a collaborative and supportive culture where open communication, knowledge sharing, fostering a sense of belonging and collective success.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Continuous Learning</h5>
-                                <p class="card-text"> Fuel your growth with our unwavering commitment to continuous learning. Benefit from training, workshops, and conferences that keep you informed about the latest industry trends.</p>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Continuous Learning</h5>
+                                <p className="card-text"> Fuel your growth with our unwavering commitment to continuous learning. Benefit from training, workshops, and conferences that keep you informed about the latest industry trends.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Work-Life Balance</h5>
-                                <p class="card-text">We value the significance of work-life balance, and our flexible work environment ensures that you can maintain a healthy equilibrium between your professional and personal life.</p>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Work-Life Balance</h5>
+                                <p className="card-text">We value the significance of work-life balance, and our flexible work environment ensures that you can maintain a healthy equilibrium between your professional and personal life.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card shadow">
-                            <div class="card-body p-3">
-                                <h5 class=" card-title text-center">Enhanced Management</h5>
-                                <p class="card-text">Experience our enhanced management approach that optimizes processes, facilitates effective decision-making, ensures streamlined operations and unlocking your full potential.</p>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="card shadow">
+                            <div className="card-body p-3">
+                                <h5 className=" card-title text-center">Enhanced Management</h5>
+                                <p className="card-text">Experience our enhanced management approach that optimizes processes, facilitates effective decision-making, ensures streamlined operations and unlocking your full potential.</p>
                             </div>
                         </div>
                     </div>

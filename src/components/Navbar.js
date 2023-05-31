@@ -20,8 +20,8 @@ function Navbar() {
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item mx-3 dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services</a>
+              <span className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services</span>
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item border-bottom" to="/WebDevelopment">Web Development</Link> </li>
                 <li><Link className="dropdown-item border-bottom" to="/MobileApps">Mobile Apps</Link></li>
