@@ -10,7 +10,7 @@ function Contact() {
         window.location.href = 'tel:+923014405739';
     };
 
-    const emailAddress = "info@swiftsolutions.pk";
+    const emailAddress = "info@techrayz.com";
     const handleEmailClick = () => {
         window.location.href = `mailto:${emailAddress}`;
     };
@@ -72,7 +72,7 @@ function Contact() {
                                             <i className='bi bi-envelope text-warning fs-1 me-3'></i>
                                             </div>
                                             <div className='fs-5'>Get Enquiry at: <br />
-                                                <div className=' fs-3 fw-bold my-2'>info@swiftsolution</div>
+                                                <div className=' fs-3 fw-bold my-2'>info@techrayz.com</div>
                                                 <button onClick={handleEmailClick} className="btn btn-dark px-4">
                                                     Mail Now
                                                 </button>

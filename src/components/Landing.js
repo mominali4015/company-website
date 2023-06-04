@@ -80,13 +80,13 @@ function Landing() {
             {/* Information About Company: */}
             <div className='container-fluid py-2 py-lg-5'>
                 <div className='row d-flex justify-content-center'>
-                    <div className='col-5 col-md-2  p-lg-4'>
-                        <img src={Logo} alt="Logo" className="rounded-circle w-100" />
+                    <div className='col-5 col-md-2 p-lg-4 d-flex align-items-center'>
+                        <img src={Logo} alt="Logo" className="w-100" />
                     </div>
                     <div className='col-12 col-md-9 col-lg-8'>
-                        <div> <span className='fs-4'>Welcome to Swift Solutions - </span> <span className='fs-5'>Unlocking Possibilities, Delivering Solutions</span></div>
+                        <div> <span className='fs-4'>Welcome to TECHRAYZ - </span> <span className='fs-5'>Unlocking Possibilities, Delivering Solutions</span></div>
                         <p style={{ textAlign: 'justify' }}>
-                            Swift Solutions is a leading IT Software Company, the premier destination for cutting-edge technology solutions and development services. With a relentless pursuit of innovation and a steadfast commitment to excellence, we empower businesses across diverse industries to achieve their goals. Our comprehensive range of services includes website development, mobile app development, graphic designing, digital marketing, and networking services. At Swift Solutions, we drive meaningful digital transformation, fuel growth, and position our clients at the forefront of their respective markets. Experience the power of unique solutions and transformative innovation with Swift Solutions.
+                            TechRayz is a leading IT Software Company, the premier destination for cutting-edge technology solutions and development services. With a relentless pursuit of innovation and a steadfast commitment to excellence, we empower businesses across diverse industries to achieve their goals. Our comprehensive range of services includes website development, mobile app development, graphic designing, digital marketing, and networking services. At TechRayz, we drive meaningful digital transformation, fuel growth, and position our clients at the forefront of their respective markets. Experience the power of unique solutions and transformative innovation with TechRayz.
                         </p>
                     </div>
                 </div>

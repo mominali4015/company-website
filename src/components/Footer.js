@@ -9,8 +9,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-12 col-md-4" style={{ textAlign: 'justify' }}>
                         <Link to="/" className='text-decoration-none text-white h3'>
-                            <img src={logo} alt='Logo' width="50" height="50" className="rounded-circle me-2" />
-                            Swift solutions
+                            <img src={logo} alt='Logo' width={200} className="" />
                         </Link>
                         <div className='my-3'>
                             <Link to="/" className="mx-2"><i className="bi bi-facebook text-white fs-4"></i></Link>
@@ -19,7 +18,7 @@ function Footer() {
                             <Link to="/" className="mx-2"><i className="bi bi-whatsapp text-white fs-4"></i></Link>
                             <Link to="/" className="mx-2"><i className="bi bi-linkedin text-white fs-4"></i></Link>
                         </div>
-                        <div>Copyright &copy; 2023, Swift Solutions</div>
+                        <div>Copyright &copy; 2023, techrayz.com</div>
                         <div><Link to="/PrivacyPolicy">Privacy Policy</Link> | <Link to="/">Site Map</Link></div>
                     </div>
                     <div className="col-12 col-md-2 mt-2">
@@ -43,7 +42,7 @@ function Footer() {
                     <div className="col-12 col-md-4 mt-2">
                         <h4>Contact</h4>
                         <ul className='list-unstyled'>
-                            <li className='mb-2 text-white'> <i className='bi bi-envelope me-2'> </i> info@swiftsolution</li>
+                            <li className='mb-2 text-white'> <i className='bi bi-envelope me-2'> </i> info@techrayz.com</li>
                             <li className='mb-2 text-white'> <i className='bi bi-telephone me-2'> </i> +92 301 4405739</li>
                             <li className='mb-2 text-white'> <i className='bi bi-phone me-2'> </i> +92 305 4735990</li>
                             <li className='mb-2 text-white'> <i className='bi bi-geo-alt me-2'> </i> Fateh Garh Lahore, Pakistan</li>

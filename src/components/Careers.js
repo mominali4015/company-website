@@ -9,7 +9,7 @@ function Careers() {
                 <div className='row'>
                     <div className='col-md-2'></div>
                     <div className='col-12 col-md-8' style={{ textAlign: 'justify' }}>
-                        <p className='text-white fs-5 p-2'>At Swift Solutions, we believe that our success is driven by the talent and dedication of our team members. We're always on the lookout for exceptional individuals who are passionate about technology and development to join our team. While we currently don't have any job openings or vacancies available, we encourage you to check back periodically for future opportunities.</p>
+                        <p className='text-white fs-5 p-2'>At TECHRAYZ, we believe that our success is driven by the talent and dedication of our team members. We're always on the lookout for exceptional individuals who are passionate about technology and development to join our team. While we currently don't have any job openings or vacancies available, we encourage you to check back periodically for future opportunities.</p>
                     </div>
                     <div className='col-md-2'></div>
                 </div>
@@ -24,7 +24,7 @@ function Careers() {
                     <div className='col-12 col-lg-6'>
                         <div style={{ textAlign: 'justify' }}>
                             <p>
-                                At Swift Solutions, our work environment is characterized by a vibrant and inclusive culture that inspires collaboration, creativity, and growth. We foster a sense of belonging where every team member's unique perspectives and ideas are valued and respected.
+                                At TECHRAYZ, our work environment is characterized by a vibrant and inclusive culture that inspires collaboration, creativity, and growth. We foster a sense of belonging where every team member's unique perspectives and ideas are valued and respected.
                             </p>
                             <p>
                                 Our teams thrive on collaboration, working together seamlessly to achieve exceptional results. We encourage open communication, knowledge sharing, and mutual support, creating an environment that nurtures teamwork and camaraderie.
@@ -96,8 +96,8 @@ function Careers() {
                 <div className='row'  style={{ textAlign: 'justify' }}>
                     <div className='col-md-2'></div>
                     <div className='col-md-8'>
-                <p>While we currently don't have any job openings, we still encourage talented individuals to get in touch with us and express their interest in joining our team. You can connect with us by sending an email to [careers@swiftsolutions.pk] or by filling out the contact form below. We will keep your information on file and reach out to you when suitable opportunities arise.</p>
-                <p>Thank you for considering Swift Solutions  as a potential employer. We appreciate your interest in our company and look forward to connecting with you in the future.</p>
+                <p>While we currently don't have any job openings, we still encourage talented individuals to get in touch with us and express their interest in joining our team. You can connect with us by sending an email to [careers@techrayz.com] or by filling out the contact form below. We will keep your information on file and reach out to you when suitable opportunities arise.</p>
+                <p>Thank you for considering TECHRAYZ  as a potential employer. We appreciate your interest in our company and look forward to connecting with you in the future.</p>
                     </div>
                     <div className='col-md-2'></div>
                 </div>

@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-transparen">
       <div className="container-fluid">
-        <Link className="navbar-brand d-flex fw-bold align-items-center mx-3" to="/">
-          <img src={logo} alt="Logo" width="50" height="50" className="d-inline-block align-text-top rounded-circle me-2" />
-          SwiftSolutions </Link>
+        <Link className="navbar-brand d-flex fw-bold align-items-center ms-5 " to="/">
+          <img src={logo} alt="Logo" width={120} className="d-inline-block align-text-top" />
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">

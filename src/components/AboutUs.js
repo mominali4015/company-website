@@ -11,7 +11,7 @@ function AboutUs() {
     return (
         <>
             <div className='container-fluid py-5 px-0 text-white text-center ' style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover' }}>
-                <h1>ABOUT SWIFT SOLUTIONS</h1>
+                <h1>ABOUT TECHRAYZ</h1>
                 <h6>Complete Source for Customized and Comprehensive Tech Solutions At One Stop</h6>
             </div>
             <div className='container-fluid bg-light'>
