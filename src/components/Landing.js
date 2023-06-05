@@ -84,7 +84,7 @@ function Landing() {
                         <img src={Logo} alt="Logo" className="w-100" />
                     </div>
                     <div className='col-12 col-md-9 col-lg-8'>
-                        <div> <span className='fs-4'>Welcome to TECHRAYZ - </span> <span className='fs-5'>Unlocking Possibilities, Delivering Solutions</span></div>
+                        <div> <span className='fs-3'>Welcome to TECHRAYZ - </span> <span className='fs-5'>Unlocking Possibilities, Delivering Solutions</span></div>
                         <p style={{ textAlign: 'justify' }}>
                             TechRayz is a leading IT Software Company, the premier destination for cutting-edge technology solutions and development services. With a relentless pursuit of innovation and a steadfast commitment to excellence, we empower businesses across diverse industries to achieve their goals. Our comprehensive range of services includes website development, mobile app development, graphic designing, digital marketing, and networking services. At TechRayz, we drive meaningful digital transformation, fuel growth, and position our clients at the forefront of their respective markets. Experience the power of unique solutions and transformative innovation with TechRayz.
                         </p>

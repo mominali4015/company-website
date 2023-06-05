@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-transparen">
       <div className="container-fluid">
-        <Link className="navbar-brand d-flex fw-bold align-items-center ms-5 " to="/">
+        <Link className="navbar-brand d-flex fw-bold align-items-center ms-md-5 " to="/">
           <img src={logo} alt="Logo" width={120} className="d-inline-block align-text-top" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
