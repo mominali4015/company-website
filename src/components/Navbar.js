@@ -30,9 +30,9 @@ function Navbar() {
                 <li><Link className="dropdown-item " to="/DigitalMarketing">Digital Marketing</Link></li>
               </ul>
             </li>
-            <li className="nav-item mx-3">
+            {/* <li className="nav-item mx-3">
               <Link className="nav-link" to="/Blogs">Blogs</Link>
-            </li>
+            </li> */}
             <li className="nav-item mx-3">
               <Link className="nav-link" to="/AboutUs">About Us</Link>
             </li>
