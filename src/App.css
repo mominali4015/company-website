@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-/* body{
-  
-  font-family: 'Roboto Slab', serif;
-
-
-} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,4 +34,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-blue{
+  background-color: #006FB8;
+  color: white;
+}
+
+.bg-blue:hover{
+  background-color: #025b96;
+  color: white;
+}
+.nav-tab-active{
+  color: #006FB8;
+  /* border-bottom: 2px solid #006FB8; */
 }

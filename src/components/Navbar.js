@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-transparen">
+    <nav className="navbar navbar-expand-lg navbar-light py-0">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex fw-bold align-items-center ms-md-5 " to="/">
           <img src={logo} alt="Logo" width={120} className="d-inline-block align-text-top" />
@@ -17,7 +17,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-3 mb-lg-0">
             <li className="nav-item mx-3">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link nav-tab-active" to="/">Home</Link>
             </li>
             <li className="nav-item mx-3 dropdown">
               <span className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +41,7 @@ function Navbar() {
             </li>
           </ul>
           <Link className="nav-link mx-3" to="/Contact">
-            <button className='btn btn-dark'>Contact Us</button>
+            <button className='btn bg-blue'>Contact Us</button>
           </Link>
         </div>
       </div>

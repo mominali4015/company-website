@@ -96,7 +96,7 @@ function Landing() {
             <div className='container-fluid bg-dark text-white'>
                 <div className='row'>
                     <div className='col-12 col-lg-6'>
-                        <div className='row gx-5 gy-2 px-2'>
+                        <div className='row gx-5 gx-lg-4 gy-2 px-2'>
                             <h2 className='text-white text-center pt-2'>Our Priorities</h2>
                             <div className='col-12 col-md-6'>
                                 <h5> <i className='bi bi-clock me-2 fs-4'></i> Timely Project Delivery</h5>
@@ -116,7 +116,7 @@ function Landing() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6'>
+                    <div className='col-12 col-lg-6 p-0'>
                         <img src={Priorities} className='w-100 h-100' alt='Benfits' />
                     </div>
                 </div>
@@ -255,7 +255,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Website Development</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>We offer comprehensive website development services, creating custom solutions that cater to your specific needs and enhance your online presence.</p>
                                 <div className='text-center'>
-                                <Link to={'/WebDevelopment'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/WebDevelopment'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Mobile Apps Development</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>We specialize in Android and iOS app development, delivering high-quality mobile applications tailored to your requirements and user preferences.</p>
                                 <div className='text-center'>
-                                <Link to={'/MobileApps'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/MobileApps'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -283,7 +283,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Search Engine Optimization</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>Our SEO services optimize your website for search engines, improving visibility and driving organic traffic to enhance your online presence and rankings.</p>
                                 <div className='text-center'>
-                                <Link to={'/SEO'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/SEO'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Graphics Designing</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>Our graphic design services provide creative and visually stunning designs that effectively communicate your brand message and captivate your audience.</p>
                                 <div className='text-center'>
-                                <Link to={'/GraphicDesigning'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/GraphicDesigning'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +311,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Digital Marketing</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>Our digital marketing services drive targeted traffic, increase brand awareness, and boost conversions through strategic online campaigns and effective marketing strategies.</p>
                                 <div className='text-center'>
-                                <Link to={'/DigitalMarketing'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/DigitalMarketing'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -325,7 +325,7 @@ function Landing() {
                                 <h5 className="card-title text-center">Networking Services</h5>
                                 <p className="card-text" style={{ textAlign: 'justify' }}>Our networking services ensure seamless connectivity, efficient data transfer, and reliable performance for enhanced communication and optimized network infrastructure.</p>
                                 <div className='text-center'>
-                                <Link to={'/NetworkServices'}><button className='btn btn-dark px-4'>Read More!</button></Link>
+                                <Link to={'/NetworkServices'}><button className='btn bg-blue px-4'>Read More</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -341,7 +341,7 @@ function Landing() {
                         <p className='' style={{ textAlign: 'justify' }} >Discover the transformative power of [Your Company Name]. Elevate your business to new heights with our innovative technology solutions and unwavering dedication. Experience the difference we can make for your success. Contact us today to discuss your project or schedule a consultation, and let's embark on a journey of transformation together.</p>
                         <p className='' style={{ textAlign: 'justify' }} >Contact us today to discuss your project, request a quote, or schedule a consultation. Our team is excited to collaborate with you and help you achieve your business goals.</p>
                         <div className='text-center'>
-                        <Link to={'/Contact'}><button className='btn btn-dark px-5 py-2'>Contact Us Now</button></Link>
+                        <Link to={'/Contact'}><button className='btn bg-blue px-5 py-2'>Contact Us Now</button></Link>
                         </div>
                     </div>
                     <div className='col-12 col-lg-5 p-0 p-md-4 p-lg-0'>
